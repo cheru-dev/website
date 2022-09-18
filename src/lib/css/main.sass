@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Rampart+One&family=Work+Sans&display=swap')
+
+.main
+  clear: both
+  margin: auto
+  min-height: 100vh
+  background: radial-gradient(at right bottom, #2a6ebb, #4058af, #7756da, #632cce) no-repeat fixed
+
+  &.dev
+    background: radial-gradient(at right bottom, #c923a6, #a30fee, #ca06ff, #ff0afb) no-repeat fixed
+
+.button
+  padding: 8px
+  display: inline-block
+  transform: translateX(100%)
+
+.highlight pre
+  font-family: "JetBrains Mono", monospace
+  border: 1px solid #999
+  border-radius: 10px
+  display: block
+  padding: 10px
+  width: 75%
+  background-color: #282a36
+
+code
+  border: 1px solid #282a36
+  color: white
+  background-color: #282a36
+  border-radius: 5px
+  padding: 2px
+  margin: 2px
+
+table
+  overflow-x: scroll
+  width: 75%
+  border-collapse: separate
+  border-spacing: 0
+  min-width: 350px
+
+  tr
+    th, td
+      border-right: 1px solid #282a36
+      border-bottom: 1px solid #282a36
+      padding: 5px
+
+    th:first-child, td:first-child
+      border-left: 1px solid #282a36
+
+    th
+      background: #282a36
+      color: white
+      border-top: 1px solid #282a36
+      text-align: left
+
+    &:first-child th
+      &:first-child
+        border-top-left-radius: 5px
+
+      &:last-child
+        border-top-right-radius: 5px
+
+    &:last-child td
+      &:first-child
+        border-bottom-left-radius: 5px
+
+      &:last-child
+        border-bottom-right-radius: 5px
+
+blockquote
+  width: 75%
+  font-style: italic
+  color: white
+  padding: 1.2em 30px 1.2em 75px
+  border-left: 8px solid #ff79c6
+  line-height: 1.6
+  position: relative
+  background: #282a36
+  border-radius: 10px
+  margin-left: 0
+
+  a.footnote-ref
+    color: white
+    padding: 5px
+
+  &::before
+    font-family: sans-serif
+    content: "\201C"
+    color: #ff79c6
+    font-size: 4em
+    position: absolute
+    left: 10px
+    top: -10px
+
+.tooltip:hover
+  background-color: yellow
+  box-shadow: yellow 0 0 2px 2px
+  color: black
+
+.text
+  padding: 0 2vh 2vh 2vh
+  min-height: 100%
+
+.page
+  pointer-events: none
+  position: relative
+  font-family: "Work Sans", sans-serif
+  overflow: auto
+  max-width: 969px
+  margin: 0 auto
+  font-size: 1.7vh
+
+.box
+  pointer-events: all
+  outline: black solid 3px
+  border-radius: 0 0 10px 0
+  background-color: white
+  box-shadow: black 8px 8px
+  $margin: calc(2vh + 8px)
+  margin: $margin
+  min-height: calc(100vh - 2 * $margin)
+  overflow-wrap: break-word
+  resize: both
+
+  &.dark
+    background-color: black
+    color: white
+    outline: white solid 3px
+
+    a, .link
+      color: white
+
+.link:hover
+  cursor: pointer
+
+.link
+  user-select: none

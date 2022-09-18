@@ -1,0 +1,25 @@
+// CREATOR
+
+    Cheru Berhanu - Creator
+    mailto:mail@cheru.dev
+    https://cheru.dev
+
+// CREDITS
+
+    Mason - Inspiration and starting point
+    mailto:mason@snwy.me
+    https://snwy.me
+
+    Kognise - Inspiration
+    mailto:hi@kognise.dev
+    https://kognise.dev/
+
+    Celeste - Inspiration
+    https://celeste.exposed
+
+// TECHNOLOGIES
+
+    SASS, SvelteKit, Typescript
+    Normalize.css
+    Cloudflare Pages, Workers, and KV Store
+    JetBrains IDEs
