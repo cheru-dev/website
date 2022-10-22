@@ -26,7 +26,7 @@ I use this regularly to keep myself in tempo when practicing violin, and it's on
 
 **Web**: [cheru.dev](https://cheru.dev)
 
-**Email**: [mail@cheru.dev](mailto:mail@cheru.dev)
+**Email**: [cheru@cheru.dev](mailto:cheru@cheru.dev)
 
 **GitHub**: [recursiveforte](https://github.com/recursiveforte)
 
