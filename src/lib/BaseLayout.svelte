@@ -32,7 +32,9 @@
                     {#if header}
                         <Header/>
                     {/if}
+                    <div style="padding-right: 2vw">
                     <slot></slot>
+                    </div>
                 </div>
             </div>
         </div>
