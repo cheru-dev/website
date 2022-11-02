@@ -3,13 +3,13 @@
 </script>
 
 <div class="header {$theme}">
-    <p class="title"><a href="/"><b>Cheru.dev</b></a></p>
+    <p class="title"><a href="/"><b>cheru.dev</b></a></p>
     <div class="links">
-        <p><a href="mailto:cheru@cheru.dev"><b>Email</b></a></p>
+        <p><a href="mailto:cheru@cheru.dev"><b>email</b></a></p>
         <p class="link" style="padding-right: 0; padding-left: 0"><b>|</b></p>
         <p class="link" on:click={() => {
                     $theme = $theme === 'dark' ? 'light' : 'dark'
-                    }}><b>[{$theme === 'dark' ? 'Light Mode' : 'Dark Mode'}]</b></p>
+                    }}><b>[{$theme === 'dark' ? 'light mode' : 'dark mode'}]</b></p>
     </div>
 </div>
 <hr class="{$theme}">

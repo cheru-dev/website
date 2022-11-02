@@ -113,12 +113,12 @@ blockquote
 .box
   pointer-events: all
   outline: black solid 3px
-  border-radius: 0 0 10px 0
   background-color: white
   box-shadow: black 8px 8px
   $margin: calc(2vh + 8px)
   margin: $margin
-  min-height: calc(100vh - 2 * $margin)
+  @media only screen and (max-device-width: 700px)
+    min-height: calc(100vh - 2 * $margin)
   overflow-wrap: break-word
   resize: both
 
